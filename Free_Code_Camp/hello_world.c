@@ -7,7 +7,7 @@ Country: Republic of Maldives
 Code version: -
 Description: -
 Credits to: Giraffe Academy
-Credits to link: https://www.youtube.com/watch?v=vLnPwxZdW4Y
+Credits to link: https://www.youtube.com/watch?v=KJgsSFOSQv0
 Note: Uncomment codes to execute and comment them when not in use.
 */
 
