@@ -20,6 +20,15 @@ Note: Uncomment codes to execute and comment them when not in use.
 // Main function.
 int main()
 {
+    // Variables to store age and name.
+    char characterName[] = "John";
+    int characterAge = 35;
+
+    // Manipulating print messages.
+    printf("There was once a man named George\n");
+    printf("he was 70 years old.\n");
+    printf("He really liked the name George\n");
+    printf("but did not like being 70.\n");
 
     return 0;
 }
