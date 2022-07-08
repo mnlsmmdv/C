@@ -20,6 +20,11 @@ Note: Uncomment codes to execute and comment them when not in use.
 // Main function.
 int main()
 {
+    // Will display a shape (Triangle).
+    printf("   /|\n");
+    printf("  / |\n");
+    printf(" /  |\n");
+    printf("/___|\n");
 
     return 0;
 }
