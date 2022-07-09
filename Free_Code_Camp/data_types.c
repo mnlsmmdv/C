@@ -20,6 +20,11 @@ Note: Uncomment codes to execute and comment them when not in use.
 // Main function.
 int main()
 {
+    // Basic data types used in the C programming language.
+    int age = 40; // Integer.
+    double gpa = 3.7 // Decimal number.
+    char grade = 'A'; // Single characters.
+    char phrase[] = "Giraffe Academy"; // Strings.
 
     return 0;
 }
