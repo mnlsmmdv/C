@@ -27,7 +27,12 @@ int main()
     printf("Hello\nWorld!\n");
 
     // Printing a message (Quotation Marks included).
-    printf("Hello\"World");
+    printf("Hello\"World\n");
+
+    // Printing a message (Format Specifiers).
+    printf("The total is: %d\n", 6000); // Integers (%d).
+    printf("The %s is: %d\n", "total", 6000); // Strings (%s).
+    printf("The %s is: %f\n" , "total", 6000.987541); // Decimals (%f).
 
     return 0;
 }
