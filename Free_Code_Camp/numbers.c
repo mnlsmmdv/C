@@ -21,9 +21,10 @@ Note: Uncomment codes to execute and comment them when not in use.
 int main()
 {
     // Prints numbers (Floating points).
-    printf("Number: %f\n", 6.7);
+    printf("Number: %f\n\n", 6.7);
 
     // Printing basic arithmetic operations (Floating Points).
+    printf("------FLOATING POINTS------");
     printf("Addition Total: %f\n", 3.0 + 2.0); // Addition.
     printf("Subtraction Total: %f\n", 5.0 - 3.0); // Subtraction.
     printf("Multiplies Total: %f\n", 23.0 * 1.0); // Multiplication.
