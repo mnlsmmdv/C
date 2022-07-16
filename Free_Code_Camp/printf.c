@@ -20,6 +20,11 @@ Note: Uncomment codes to execute and comment them when not in use.
 // Main function.
 int main()
 {
+    // Variables (Format Specifiers).
+    int favNum = 6000;
+    char myString[] = "total";
+    char myChar = 'i';
+
     // Printing a message.
     printf("Hello World!\n");
 
@@ -33,6 +38,10 @@ int main()
     printf("The total is: %d\n", 6000); // Integers (%d).
     printf("The %s is: %d\n", "total", 6000); // Strings (%s).
     printf("The %s is: %f\n" , "total", 6000.987541); // Decimals (%f).
+
+    // Printing a message (Format Specifiers + Variables).
+    printf("The %s is: %d\n", myString, favNum); // String + Integer.
+    printf("The character is: %c\n", myChar); // Character.
 
     return 0;
 }
