@@ -55,7 +55,7 @@ int main()
     // Prints ceiling number (rounds up to next highest number).
     printf("Ceiling Number: %f\n", ceil(36.356));
 
-    // Prints floor number (rounds back to next lowest).
+    // Prints floor number (rounds back to next lowest number).
     printf("Floor Number: %f\n", floor(36.656));
 
     return 0;
