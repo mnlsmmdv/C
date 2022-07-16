@@ -20,6 +20,9 @@ Note: Uncomment codes to execute and comment them when not in use.
 // Main function.
 int main()
 {
+    // Variables.
+    int num = 6;
+
     // Prints numbers (Floating points).
     printf("Floating Point Number: %f\n\n", 6.7);
 
@@ -35,7 +38,13 @@ int main()
     printf("Addition Total: %f\n", 3.0 + 2.0); // Addition.
     printf("Subtraction Total: %f\n", 5.0 - 3.0); // Subtraction.
     printf("Multiplication Total: %f\n", 23.0 * 1.0); // Multiplication.
-    printf("Division Total: %f\n", 20.0 / 2.0); // Division.
+    printf("Division Total: %f\n\n", 20.0 / 2.0); // Division.
+
+    // Prints number (Integer + Floating Point).
+    printf("Integer + Floating Point: %f\n", 5 + 4.5);
+
+    // Printing variable value.
+    printf("Variable Value: %d", num);
 
     return 0;
 }
