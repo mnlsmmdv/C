@@ -24,7 +24,10 @@ int main()
     printf("Hello World!\n");
 
     // Printing a message (New Line).
-    printf("Hello\nWorld!");
+    printf("Hello\nWorld!\n");
+
+    // Printing a message (Quotation Marks included).
+    printf("Hello\"World");
 
     return 0;
 }
