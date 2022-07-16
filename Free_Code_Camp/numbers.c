@@ -44,7 +44,10 @@ int main()
     printf("Integer + Floating Point: %f\n", 5 + 4.5);
 
     // Printing variable value.
-    printf("Variable Value: %d", num);
+    printf("Variable Value: %d\n", num);
+
+    // Prints cubed number.
+    printf("Cube Number: %f\n", pow(2, 3));
 
     return 0;
 }
