@@ -22,6 +22,10 @@ int main()
 {
     // Printing a message.
     printf("Hello World!\n");
+
+    // Printing a message (New Line).
+    printf("Hello\nWorld!");
+
     return 0;
 }
 
