@@ -20,6 +20,8 @@ Note: Uncomment codes to execute and comment them when not in use.
 // Main function.
 int main()
 {
+    // Prints numbers (Floating points).
+    printf("Number: %f", 6.7);
 
     return 0;
 }
