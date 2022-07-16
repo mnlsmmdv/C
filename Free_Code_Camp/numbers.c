@@ -52,8 +52,11 @@ int main()
     // Prints square root number.
     printf("Square Root Number: %f\n", sqrt(36));
 
-    // Prints ceiling number (next highest number).
+    // Prints ceiling number (rounds up to next highest number).
     printf("Ceiling Number: %f\n", ceil(36.356));
+
+    // Prints floor number (rounds back to next lowest).
+    printf("Floor Number: %f\n", floor(36.656));
 
     return 0;
 }
