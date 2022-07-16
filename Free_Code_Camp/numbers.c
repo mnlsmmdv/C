@@ -49,6 +49,9 @@ int main()
     // Prints cubed number.
     printf("Cube Number: %f\n", pow(2, 3));
 
+    // Prints square root number.
+    printf("Square Root Number: %f\n", sqrt(36));
+
     return 0;
 }
 
