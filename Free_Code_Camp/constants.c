@@ -29,6 +29,15 @@ int main()
     printf("Number: %d\n", num);
     */
 
+    // Example of unmodifiable constant after declaration.
+    // Will display an error cause it is unmodifiable.
+    /*
+    const int FAV_NUM = 13;
+    printf("Number: %d\n", FAV_NUM);
+    FAV_NUM = 8;
+    printf("Number: %d\n", FAV_NUM);
+    */
+
     return 0;
 }
 
