@@ -63,6 +63,14 @@ int main()
     printf("--------------------\n"); // Separator.
     */
 
+    // Prompting the user to enter their name.
+    // This implementation gets the full name - whole line of text.
+    printf("Enter your name: ");
+    fgets(name, 20, stdin);
+    // Prints users name.
+    printf("Your name is %s", name);
+    printf("--------------------\n"); // Separator.
+
     return 0;
 }
 
