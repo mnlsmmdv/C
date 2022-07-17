@@ -24,9 +24,9 @@ int main()
     // Note that the number changes from 13 to 8.
     /*
     int num = 13;
-    printf("Number: %d", num);
+    printf("Number: %d\n", num);
     num = 8;
-    printf("Number: %d", num);
+    printf("Number: %d\n", num);
     */
 
     return 0;
