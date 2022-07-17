@@ -21,7 +21,7 @@ Note: Uncomment codes to execute and comment them when not in use.
 int main()
 {
     // Printing a message.
-    printf("Hello World!\n");
+    printf("Comments are fun!\n");
 
     // Normal comment.
 
