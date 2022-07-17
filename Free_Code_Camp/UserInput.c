@@ -24,6 +24,7 @@ int main()
     int age; // Users age.
     double gpa; // Users gpa.
     char grade; // Users grade.
+    char name[20]; // Users name.
 
     /*
     // Prompting the user to enter age and gpa.
@@ -43,11 +44,21 @@ int main()
     printf("--------------------\n"); // Separator.
     */
 
+    /*
     // Prompting the user to enter their grade.
     printf("Enter your grade: ");
     scanf("%c", &grade);
     // Prints users grade.
     printf("Your grade is %c.\n", grade);
+    printf("--------------------\n"); // Separator.
+    */
+
+    // Prompting the user to enter their name.
+    // Note that this implementation gets only the first name.
+    printf("Enter your name: ");
+    scanf("%s", &name);
+    // Prints users name.
+    printf("Your name is %s.\n", name);
     printf("--------------------\n"); // Separator.
 
     return 0;
