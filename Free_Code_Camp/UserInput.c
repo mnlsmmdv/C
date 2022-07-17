@@ -20,7 +20,15 @@ Note: Uncomment codes to execute and comment them when not in use.
 // Main function.
 int main()
 {
+    // Variable declarations.
+    int age; // Users age.
 
+    // Prompting the user to give an age.
+    printf("Enter your age: ");
+    scanf("%d", &age);
+
+    // Printing the users age.
+    printf("You are %d years old.", age);
 
     return 0;
 }
