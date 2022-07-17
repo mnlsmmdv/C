@@ -23,20 +23,30 @@ int main()
     // Variable declarations.
     int age; // Users age.
     double gpa; // Users gpa.
+    char grade; // Users grade.
 
+    /*
     // Prompting the user to enter age and gpa.
     printf("Enter your age: ");
     scanf("%d", &age);
     // Prints users age.
     printf("You are %d years old.\n", age);
-
     printf("--------------------\n"); // Separator.
+    */
 
     // Prompting user to enter their gpa.
     printf("Enter your gpa: ");
     scanf("%lf", &gpa);
     // Prints users gpa.
     printf("Your gpa is %f.\n", gpa);
+    printf("--------------------\n"); // Separator.
+
+    // Prompting the user to enter their grade.
+    printf("Enter your grade: ");
+    scanf("%c", &grade);
+    // Prints users grade.
+    printf("Your grade is %c.\n", grade);
+    printf("--------------------\n"); // Separator.
 
     return 0;
 }
