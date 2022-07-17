@@ -34,12 +34,14 @@ int main()
     printf("--------------------\n"); // Separator.
     */
 
+    /*
     // Prompting user to enter their gpa.
     printf("Enter your gpa: ");
     scanf("%lf", &gpa);
     // Prints users gpa.
     printf("Your gpa is %f.\n", gpa);
     printf("--------------------\n"); // Separator.
+    */
 
     // Prompting the user to enter their grade.
     printf("Enter your grade: ");
