@@ -24,7 +24,7 @@ int main()
     int age; // Users age.
     double gpa; // Users gpa.
 
-    // Prompting the user to give an age.
+    // Prompting the user to enter age and gpa.
     printf("Enter your age: ");
     scanf("%d", &age);
     printf("Enter your gpa: ");
@@ -32,7 +32,7 @@ int main()
 
     printf("----------------------\n"); // Separator.
 
-    // Printing the users age.
+    // Printing the users age and gpa.
     printf("You are %d years old.\n", age);
     printf("Your gpa is %f.\n", gpa);
 
