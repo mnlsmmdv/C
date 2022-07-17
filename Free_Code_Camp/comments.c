@@ -22,6 +22,22 @@ int main()
 {
     // Printing a message.
     printf("Hello World!\n");
+
+    // Normal comment.
+
+    // Multi-Line comments.
+    /*
+    Never gonna give you up
+    Never gonna let you down
+    Never gonna run around and desert you
+    Never gonna make you cry
+    Never gonna say goodbye
+    Never gonna tell a lie and hurt you
+    */
+
+    // Commenting out a piece of code.
+    printf("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+
     return 0;
 }
 
