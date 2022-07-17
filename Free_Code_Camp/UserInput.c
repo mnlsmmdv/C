@@ -53,6 +53,7 @@ int main()
     printf("--------------------\n"); // Separator.
     */
 
+    /*
     // Prompting the user to enter their name.
     // Note that this implementation gets only the first name.
     printf("Enter your name: ");
@@ -60,6 +61,7 @@ int main()
     // Prints users name.
     printf("Your name is %s.\n", name);
     printf("--------------------\n"); // Separator.
+    */
 
     return 0;
 }
