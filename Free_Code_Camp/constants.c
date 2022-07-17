@@ -20,6 +20,14 @@ Note: Uncomment codes to execute and comment them when not in use.
 // Main function.
 int main()
 {
+    // Example of modifying variable after declaration.
+    // Note that the number changes from 13 to 8.
+    /*
+    int num = 13;
+    printf("Number: %d", num);
+    num = 8;
+    printf("Number: %d", num);
+    */
 
     return 0;
 }
