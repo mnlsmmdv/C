@@ -25,7 +25,14 @@ int main()
     char pluralNoun[20];
     char celebrityName[20];
 
-    // Print messages for Madlibs.
+    // Prompting the user to give information.
+    printf("Enter a Colour: ");
+    scanf("%s", colourName);
+    printf("Enter a Plural Noun: ");
+    scanf("%s", pluralNoun);
+    printf("%s", celebrityName);
+
+    // Print messages for MadLibs.
     printf("Roses are red\n");
     printf("Violets are blue\n");
     printf("I love you\n");
