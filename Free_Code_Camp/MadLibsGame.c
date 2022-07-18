@@ -30,7 +30,8 @@ int main()
     scanf("%s", colourName);
     printf("Enter a Plural Noun: ");
     scanf("%s", pluralNoun);
-    printf("%s", celebrityName);
+    printf("Enter a Celebrity: ");
+    scanf("%s", celebrityName);
 
     // Print messages for MadLibs.
     printf("Roses are red\n");
