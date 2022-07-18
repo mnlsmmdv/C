@@ -23,7 +23,8 @@ int main()
     // Variables to store colour, plural noun and celebrity.
     char colourName[20];
     char pluralNoun[20];
-    char celebrityName[20];
+    char celebrityF[20];
+    char celebrityL[20];
 
     // Prompting the user to give information.
     printf("--------------------\n"); // Separator.
@@ -32,13 +33,13 @@ int main()
     printf("Enter a Plural Noun: ");
     scanf("%s", pluralNoun);
     printf("Enter a Celebrity: ");
-    scanf("%s", celebrityName);
+    scanf("%s%s", celebrityF, celebrityL);
     printf("--------------------\n"); // Separator.
 
     // Print messages for MadLibs.
     printf("Roses are %s\n", colourName);
     printf("%s are blue\n", pluralNoun);
-    printf("I love %s\n", celebrityName);
+    printf("I love %s %s\n", celebrityF, celebrityL);
     printf("--------------------\n"); // Separator.
 
     return 0;
