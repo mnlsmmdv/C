@@ -20,7 +20,15 @@ Note: Uncomment codes to execute and comment them when not in use.
 // Main function.
 int main()
 {
+    // Variables to store user given number 1 and 2.
+    int num1;
+    int num2;
 
+    // Prompting user to enter two numbers.
+    printf("Enter first number: ");
+    scanf("%d", &num1);
+    printf("Enter second number: ");
+    scanf("%d", &num2);
 
     return 0;
 }
