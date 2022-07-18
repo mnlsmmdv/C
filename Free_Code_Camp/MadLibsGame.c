@@ -20,7 +20,10 @@ Note: Uncomment codes to execute and comment them when not in use.
 // Main function.
 int main()
 {
-
+    // Print messages for Madlibs.
+    printf("Roses are red\n");
+    printf("Violets are blue\n");
+    printf("I love you\n");
 
     return 0;
 }
