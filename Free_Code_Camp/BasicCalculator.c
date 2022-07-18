@@ -32,7 +32,7 @@ int main()
     scanf("%d", &num2);
     printf("--------------------\n"); // Separator.
     // Calculates the answer (Addition).
-    printf("Answer: %d", num1 + num2);
+    printf("Answer: %d\n", num1 + num2);
     printf("--------------------\n"); // Separator.
 
     return 0;
