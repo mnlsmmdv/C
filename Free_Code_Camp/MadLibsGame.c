@@ -26,17 +26,20 @@ int main()
     char celebrityName[20];
 
     // Prompting the user to give information.
+    printf("--------------------\n"); // Separator.
     printf("Enter a Colour: ");
     scanf("%s", colourName);
     printf("Enter a Plural Noun: ");
     scanf("%s", pluralNoun);
     printf("Enter a Celebrity: ");
     scanf("%s", celebrityName);
+    printf("--------------------\n"); // Separator.
 
     // Print messages for MadLibs.
     printf("Roses are %s\n", colourName);
     printf("%s are blue\n", pluralNoun);
     printf("I love %s\n", celebrityName);
+    printf("--------------------\n"); // Separator.
 
     return 0;
 }
