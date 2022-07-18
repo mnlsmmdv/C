@@ -34,9 +34,9 @@ int main()
     scanf("%s", celebrityName);
 
     // Print messages for MadLibs.
-    printf("Roses are red\n");
-    printf("Violets are blue\n");
-    printf("I love you\n");
+    printf("Roses are %s\n", colourName);
+    printf("%s are blue\n", pluralNoun);
+    printf("I love %s\n", celebrityName);
 
     return 0;
 }
