@@ -25,10 +25,15 @@ int main()
     int num2;
 
     // Prompting user to enter two numbers.
+    printf("--------------------\n"); // Separator.
     printf("Enter first number: ");
     scanf("%d", &num1);
     printf("Enter second number: ");
     scanf("%d", &num2);
+    printf("--------------------\n"); // Separator.
+    // Calculates the answer (Addition).
+    printf("Answer: %d", num1 + num2);
+    printf("--------------------\n"); // Separator.
 
     return 0;
 }
