@@ -20,6 +20,11 @@ Note: Uncomment codes to execute and comment them when not in use.
 // Main function.
 int main()
 {
+    // Variables to store colour, plural noun and celebrity.
+    char colour[20];
+    char pluralNoun[20];
+    char celebrity[20]
+
     // Print messages for Madlibs.
     printf("Roses are red\n");
     printf("Violets are blue\n");
