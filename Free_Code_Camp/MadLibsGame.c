@@ -20,7 +20,7 @@ Note: Uncomment codes to execute and comment them when not in use.
 // Main function.
 int main()
 {
-    // Variables to store colour, plural noun and celebrity.
+    // Variables to store colour, plural noun, celebrity's first and last name.
     char colourName[20];
     char pluralNoun[20];
     char celebrityF[20];
