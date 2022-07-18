@@ -20,8 +20,8 @@ Note: Uncomment codes to execute and comment them when not in use.
 // Main function.
 int main()
 {
-    // Printing a message.
-    printf("Hello World!\n");
+
+
     return 0;
 }
 
