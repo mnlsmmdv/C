@@ -24,21 +24,21 @@ int main()
     int luckyNumbers[] = {4, 8, 15, 16, 23, 42};
 
     // Printing elements in indexes.
-    printf("Element at index 01: %d\n", luckyNumbers[0]);
-    printf("Element at index 02: %d\n", luckyNumbers[1]);
-    printf("Element at index 03: %d\n", luckyNumbers[2]);
-    printf("Element at index 04: %d\n", luckyNumbers[3]);
-    printf("Element at index 05: %d\n", luckyNumbers[4]);
+    printf("Element at index 00: %d\n", luckyNumbers[0]);
+    printf("Element at index 01: %d\n", luckyNumbers[1]);
+    printf("Element at index 02: %d\n", luckyNumbers[2]);
+    printf("Element at index 03: %d\n", luckyNumbers[3]);
+    printf("Element at index 04: %d\n", luckyNumbers[4]);
 
     // Editing an element at index.
     luckyNumbers[1] = 200;
 
     // Printing elements in indexes (After modification).
-    printf("Element at index 01: %d\n", luckyNumbers[0]);
-    printf("Element at index 02: %d\n", luckyNumbers[1]);
-    printf("Element at index 03: %d\n", luckyNumbers[2]);
-    printf("Element at index 04: %d\n", luckyNumbers[3]);
-    printf("Element at index 05: %d\n", luckyNumbers[4]);
+    printf("Element at index 00: %d\n", luckyNumbers[0]);
+    printf("Element at index 01: %d\n", luckyNumbers[1]);
+    printf("Element at index 02: %d\n", luckyNumbers[2]);
+    printf("Element at index 03: %d\n", luckyNumbers[3]);
+    printf("Element at index 04: %d\n", luckyNumbers[4]);
 
     return 0;
 }
