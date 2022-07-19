@@ -40,6 +40,7 @@ int main()
     printf("Element at index 02: %d\n", luckyNumbers[2]);
     printf("Element at index 03: %d\n", luckyNumbers[3]);
     printf("Element at index 04: %d\n", luckyNumbers[4]);
+    printf("Element at index 05: %d\n", luckyNumbers[5]);
 
     return 0;
 }
