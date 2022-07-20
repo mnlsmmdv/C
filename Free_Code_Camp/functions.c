@@ -21,7 +21,7 @@ Note: Uncomment codes to execute and comment them when not in use.
 int main()
 {
     // Calling function.
-    sayHi();
+    //sayHi();
     return 0;
 }
 
