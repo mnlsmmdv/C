@@ -21,7 +21,7 @@ Note: Uncomment codes to execute and comment them when not in use.
 int main()
 {
     // Array to store list of lucky numbers.
-    int luckyNumbers[] = {4, 8, 15, 16, 23, 42};
+    //int luckyNumbers[] = {4, 8, 15, 16, 23, 42};
 
     /*
     // Printing elements in indexes.
