@@ -33,6 +33,11 @@ int main()
     // Example - Calling function with parameter value.
     //sayHi("Affaan");
 
+    // Example - Calling function with multiple parameter values.
+    sayHi("Mike");
+    sayHi("Tom");
+    sayHi("Oscar");
+
     return 0;
 }
 
