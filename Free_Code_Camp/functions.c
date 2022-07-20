@@ -25,4 +25,11 @@ int main()
     return 0;
 }
 
+// This function will say Hi to the user.
+void sayHi()
+{
+    // Says Hi to the user.
+    printf("Hello User!\n");
+}
+
 // Program end.
