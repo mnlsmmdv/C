@@ -1,6 +1,6 @@
 /*
 Name: Ahmed Affaan
-Title: data_types.c
+Title: DataTypes.c
 Folder: C/Free_Code_Camp
 Date: 09/07/2022
 Country: Republic of Maldives
