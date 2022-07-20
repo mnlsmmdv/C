@@ -34,6 +34,8 @@ int main()
 
     // Editing an element at index.
     luckyNumbers[1] = 200;
+    luckyNumbers[3] = 300;
+    luckyNumbers[5] = 400;
 
     // Printing elements in indexes (After modification).
     printf("--------------------\n"); // Separator.
