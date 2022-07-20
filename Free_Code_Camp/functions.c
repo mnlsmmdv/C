@@ -33,7 +33,7 @@ int main()
     // Example - Calling function with parameter value.
     //sayHi("Affaan");
 
-    // Example - Calling function with multiple parameter values.
+    // Example - Calling function with multiple parameter values (name + age).
     sayHi("Mike", 40);
     sayHi("Tom", 23);
     sayHi("Oscar", 70);
