@@ -34,9 +34,9 @@ int main()
     //sayHi("Affaan");
 
     // Example - Calling function with multiple parameter values.
-    sayHi("Mike");
-    sayHi("Tom");
-    sayHi("Oscar");
+    sayHi("Mike", 40);
+    sayHi("Tom", 23);
+    sayHi("Oscar", 70);
 
     return 0;
 }
