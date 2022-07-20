@@ -37,7 +37,7 @@ int main()
 void sayHi(char name[])
 {
     // Says Hi to the user.
-    printf("Hello &s!\n", name);
+    printf("Hello %s!\n", name);
 }
 
 // Program end.
