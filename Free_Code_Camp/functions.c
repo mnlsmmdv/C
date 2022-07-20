@@ -30,6 +30,9 @@ int main()
     printf("Bottom\n");
     */
 
+    // Example - Calling function with parameter value.
+    sayHi("Affaan");
+
     return 0;
 }
 
