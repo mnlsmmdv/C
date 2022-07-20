@@ -20,7 +20,8 @@ Note: Uncomment codes to execute and comment them when not in use.
 // Main function.
 int main()
 {
-
+    // Calling function.
+    sayHi();
     return 0;
 }
 
