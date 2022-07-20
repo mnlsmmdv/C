@@ -34,10 +34,10 @@ int main()
 }
 
 // This function will say Hi to the user.
-void sayHi()
+void sayHi(char name[])
 {
     // Says Hi to the user.
-    printf("Hello User!\n");
+    printf("Hello &s!\n", name);
 }
 
 // Program end.
