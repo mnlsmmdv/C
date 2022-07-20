@@ -41,6 +41,7 @@ int main()
     luckyNumbers[5] = 400;
     */
 
+    /*
     // Printing elements in indexes (After modification).
     printf("--------------------\n"); // Separator.
     printf("Element at index 00: %d\n", luckyNumbers[0]);
@@ -50,6 +51,7 @@ int main()
     printf("Element at index 04: %d\n", luckyNumbers[4]);
     printf("Element at index 05: %d\n", luckyNumbers[5]); // Modified.
     printf("--------------------\n"); // Separator.
+    */
 
     return 0;
 }
