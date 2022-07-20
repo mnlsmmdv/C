@@ -23,6 +23,7 @@ int main()
     // Array to store list of lucky numbers.
     int luckyNumbers[] = {4, 8, 15, 16, 23, 42};
 
+    /*
     // Printing elements in indexes.
     printf("--------------------\n"); // Separator.
     printf("Element at index 00: %d\n", luckyNumbers[0]);
@@ -31,6 +32,7 @@ int main()
     printf("Element at index 03: %d\n", luckyNumbers[3]);
     printf("Element at index 04: %d\n", luckyNumbers[4]);
     printf("Element at index 05: %d\n", luckyNumbers[5]);
+    */
 
     // Editing elements at indexes.
     luckyNumbers[1] = 200;
