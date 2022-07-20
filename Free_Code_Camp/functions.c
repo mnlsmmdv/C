@@ -31,7 +31,7 @@ int main()
     */
 
     // Example - Calling function with parameter value.
-    sayHi("Affaan");
+    //sayHi("Affaan");
 
     return 0;
 }
