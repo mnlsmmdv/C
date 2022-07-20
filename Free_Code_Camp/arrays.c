@@ -32,7 +32,7 @@ int main()
     printf("Element at index 04: %d\n", luckyNumbers[4]);
     printf("Element at index 05: %d\n", luckyNumbers[5]);
 
-    // Editing an element at index.
+    // Editing elements at indexes.
     luckyNumbers[1] = 200;
     luckyNumbers[3] = 300;
     luckyNumbers[5] = 400;
