@@ -42,6 +42,7 @@ int main()
 }
 
 // This function will say Hi to the user.
+// "void" does not return information.
 void sayHi(char name[], int age[])
 {
     // Says Hi to the user.
