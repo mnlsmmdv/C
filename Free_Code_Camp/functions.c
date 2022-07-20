@@ -23,10 +23,12 @@ int main()
     // Calling function.
     //sayHi();
 
+    /*
     // Example - Calling function with other codes.
     printf("Top\n");
     sayHi();
     printf("Bottom\n");
+    */
 
     return 0;
 }
