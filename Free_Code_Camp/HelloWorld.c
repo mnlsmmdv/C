@@ -1,6 +1,6 @@
 /*
 Name: Ahmed Affaan
-Title: hello_world.c
+Title: HelloWorld.c
 Folder: C/Free_Code_Camp
 Date: 05/07/2022
 Country: Republic of Maldives
