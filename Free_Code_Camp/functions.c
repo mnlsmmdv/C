@@ -42,10 +42,10 @@ int main()
 }
 
 // This function will say Hi to the user.
-void sayHi(char name[])
+void sayHi(char name[], int age[])
 {
     // Says Hi to the user.
-    printf("Hello %s!\n", name);
+    printf("Hello %s! You are %d years old.\n", name, age);
 }
 
 // Program end.
