@@ -34,10 +34,12 @@ int main()
     printf("Element at index 05: %d\n", luckyNumbers[5]);
     */
 
+    /*
     // Editing elements at indexes.
     luckyNumbers[1] = 200;
     luckyNumbers[3] = 300;
     luckyNumbers[5] = 400;
+    */
 
     // Printing elements in indexes (After modification).
     printf("--------------------\n"); // Separator.
