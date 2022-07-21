@@ -31,6 +31,7 @@ int main()
 {
     // Printing cubed number using user input.
     printf("Cubed Number: %f\n", cubeNumber(3.0));
+    printf("Cubed Number: %f\n", cubeNumber(7.0));
 
     return 0;
 }
