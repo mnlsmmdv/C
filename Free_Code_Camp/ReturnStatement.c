@@ -17,6 +17,9 @@ Note: Uncomment codes to execute and comment them when not in use.
 #include <stdio.h>
 #include <stdlib.h>
 
+// Function Stub - cubeNumber
+double cubeNumber(double num);
+
 // Main function.
 int main()
 {
