@@ -21,11 +21,9 @@ Note: Uncomment codes to execute and comment them when not in use.
 // Functions that returns value declared above main function.
 double cubeNumber(double num)
 {
-    /*
     // Variables calculates cubed number and returns it.
     double cubeResult = num * num * num;
     return cubeResult;
-    */
 
     /*
     // Example - Calculate cubed number and return it.
