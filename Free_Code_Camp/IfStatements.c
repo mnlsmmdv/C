@@ -42,7 +42,10 @@ int maxNum(int num1, int num2, int num3)
 // Main function.
 int main()
 {
-
+    // Calling function - maxNum
+    printf("Max Number: %d\n", maxNum(1, 5, 3)); // Highest number in the middle.
+    printf("Max Number: %d\n", maxNum(4, 2, 6)); // Highest number on the right.
+    printf("Max Number: %d\n", maxNum(9, 8, 7)); // Highest number on the left.
     return 0;
 }
 
