@@ -29,8 +29,8 @@ double cubeNumber(double num)
 // Main function.
 int main()
 {
-    // Printing a message.
-    printf("Hello World!\n");
+
+
     return 0;
 }
 
