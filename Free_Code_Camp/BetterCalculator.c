@@ -34,6 +34,24 @@ int main()
     scanf("%d", &num2);
     printf("--------------------\n"); // Separator.
 
+    // Does calculations according to operator.
+    if(op == '+'){
+        printf("Addition Total: %f\n", num1 + num2); // Addition.
+        printf("--------------------\n"); // Separator.
+    } else if(op == '-'){
+        printf("Subtraction Total: %f\n", num1 - num2); // Subtraction.
+        printf("--------------------\n"); // Separator.
+    } else if(op == '*'){
+        printf("Multiplication Total: %f\n", num1 * num2); // Multiplication.
+        printf("--------------------\n"); // Separator.
+    } else if(op == '/'){
+        printf("Division Total: %f\n", num1 / num2); // Division.
+        printf("--------------------\n"); // Separator.
+    } else{
+        printf("INVALID OPERATOR!\n"); // Error.
+        printf("--------------------\n"); // Separator.
+    }
+
     return 0;
 }
 
