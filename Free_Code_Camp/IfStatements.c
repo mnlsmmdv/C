@@ -18,7 +18,7 @@ Note: Uncomment codes to execute and comment them when not in use.
 #include <stdlib.h>
 
 // This function compares three numbers to find the highest number.
-int maxNum(int num1, int num2)
+int maxNum(int num1, int num2, int num3)
 {
     // Variable to store highest number result.
     int maxNumResult;
