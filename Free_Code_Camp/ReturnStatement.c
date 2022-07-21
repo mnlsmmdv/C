@@ -23,7 +23,7 @@ double cubeNumber(double num);
 // Main function.
 int main()
 {
-    // Printing cubed number using user input.
+    // Printing cubed numbers using user input.
     printf("Cubed Number: %f\n", cubeNumber(3.0));
     printf("Cubed Number: %f\n", cubeNumber(7.0));
     printf("Cubed Number: %f\n", cubeNumber(2.0));
