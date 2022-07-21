@@ -20,6 +20,19 @@ Note: Uncomment codes to execute and comment them when not in use.
 // Main function.
 int main()
 {
+    // Variables to store numbers and operator.
+    double num1, num2;
+    char op;
+
+    // Asking for user input.
+    printf("--------------------\n"); // Separator.
+    printf("Enter number 01: ");
+    scanf("%f", &num1);
+    printf("Enter operator: ");
+    scanf(" %c", &op);
+    printf("Enter number 02: ");
+    scanf("%d", &num2);
+    printf("--------------------\n"); // Separator.
 
     return 0;
 }
