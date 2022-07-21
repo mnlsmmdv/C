@@ -29,7 +29,8 @@ double cubeNumber(double num)
 // Main function.
 int main()
 {
-
+    // Printing cubed number using user input.
+    printf("Cubed Number: %f\n", cubeNumber(3.0));
 
     return 0;
 }
