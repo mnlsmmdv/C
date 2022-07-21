@@ -39,8 +39,7 @@ int maxNum(int num1, int num2)
 // Main function.
 int main()
 {
-    // Printing a message.
-    printf("Hello World!\n");
+
     return 0;
 }
 
