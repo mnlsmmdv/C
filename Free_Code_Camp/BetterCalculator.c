@@ -25,7 +25,9 @@ int main()
     char op;
 
     // Asking for user input.
-    printf("--------------------\n"); // Separator.
+    printf("+-------------------+\n"); // Separator.
+    printf("|     CALCULATOR    |\n");
+    printf("+-------------------+\n"); // Separator.
     printf("Enter number 01: ");
     scanf("%lf", &num1);
     printf("Enter operator: ");
