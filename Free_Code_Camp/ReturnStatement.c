@@ -17,6 +17,17 @@ Note: Uncomment codes to execute and comment them when not in use.
 #include <stdio.h>
 #include <stdlib.h>
 
+// Main function.
+int main()
+{
+    // Printing cubed number using user input.
+    printf("Cubed Number: %f\n", cubeNumber(3.0));
+    printf("Cubed Number: %f\n", cubeNumber(7.0));
+    printf("Cubed Number: %f\n", cubeNumber(2.0));
+
+    return 0;
+}
+
 // This function will return a cubed number.
 // Functions that returns value declared above main function.
 double cubeNumber(double num)
@@ -29,17 +40,6 @@ double cubeNumber(double num)
     // Example - Calculate cubed number and return it.
     return num * num * num;
     */
-}
-
-// Main function.
-int main()
-{
-    // Printing cubed number using user input.
-    printf("Cubed Number: %f\n", cubeNumber(3.0));
-    printf("Cubed Number: %f\n", cubeNumber(7.0));
-    printf("Cubed Number: %f\n", cubeNumber(2.0));
-
-    return 0;
 }
 
 // Program end.
