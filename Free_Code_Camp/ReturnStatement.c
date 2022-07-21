@@ -17,6 +17,15 @@ Note: Uncomment codes to execute and comment them when not in use.
 #include <stdio.h>
 #include <stdlib.h>
 
+// This function will return a cubed number.
+// Functions that returns value declared above main function.
+double cubeNumber(double num)
+{
+    // Variables calculates cubed number and returns it.
+    double cubeResult = num * num * num;
+    return cubeResult;
+}
+
 // Main function.
 int main()
 {
