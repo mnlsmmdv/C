@@ -37,6 +37,7 @@ int main()
     printf("--------------------\n"); // Separator.
 
     // Does calculations according to operator.
+    // Basic four arithmetic operations (+, -, *, /).
     if(op == '+'){
         printf("Addition Total: %f\n", num1 + num2); // Addition.
         printf("--------------------\n"); // Separator.
