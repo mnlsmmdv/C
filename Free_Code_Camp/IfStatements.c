@@ -17,6 +17,25 @@ Note: Uncomment codes to execute and comment them when not in use.
 #include <stdio.h>
 #include <stdlib.h>
 
+// This function compares two numbers to find the highest number.
+int maxNum(int num1, int num2)
+{
+    // Variable to store highest number result.
+    int maxNumResult;
+
+    // Checks if num1 or num2 is the highest number.
+    if(num1 > num2){
+        // num1 is the highest number.
+        maxNumResult = num1;
+    } else{
+        // num2 is the highest number.
+        maxNumResult = num2;
+    }
+
+    // Returns result.
+    return maxNumResult;
+}
+
 // Main function.
 int main()
 {
