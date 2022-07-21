@@ -26,6 +26,9 @@ double cubeNumber(double num)
     double cubeResult = num * num * num;
     return cubeResult;
     */
+
+    // Example - Calculate cubed number and return it.
+    return num * num * num;
 }
 
 // Main function.
