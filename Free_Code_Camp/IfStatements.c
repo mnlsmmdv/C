@@ -23,6 +23,18 @@ int maxNum(int num1, int num2)
     // Variable to store highest number result.
     int maxNumResult;
 
+    // Checks highest out of three numbers.
+    if(num1 >= num2 && num1 >= num3){
+            // num1 is the highest number.
+            maxNumResult = num1;
+    } else if(num2 >= num1 && num2 >= num3){
+        // num2 is the highest number.
+        maxNumResult = num2;
+    } else{
+        // num3 is the highest number.
+        maxNumResult = num3;
+    }
+
     // Returns result.
     return maxNumResult;
 }
