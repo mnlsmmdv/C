@@ -27,11 +27,11 @@ int main()
     // Asking for user input.
     printf("--------------------\n"); // Separator.
     printf("Enter number 01: ");
-    scanf("%f", &num1);
+    scanf("%lf", &num1);
     printf("Enter operator: ");
     scanf(" %c", &op);
     printf("Enter number 02: ");
-    scanf("%f", &num2);
+    scanf("%lf", &num2);
     printf("--------------------\n"); // Separator.
 
     // Does calculations according to operator.
