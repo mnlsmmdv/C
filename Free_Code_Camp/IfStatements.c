@@ -23,15 +23,6 @@ int maxNum(int num1, int num2)
     // Variable to store highest number result.
     int maxNumResult;
 
-    // Checks if num1 or num2 is the highest number.
-    if(num1 > num2){
-        // num1 is the highest number.
-        maxNumResult = num1;
-    } else{
-        // num2 is the highest number.
-        maxNumResult = num2;
-    }
-
     // Returns result.
     return maxNumResult;
 }
