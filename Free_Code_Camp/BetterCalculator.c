@@ -31,7 +31,7 @@ int main()
     printf("Enter operator: ");
     scanf(" %c", &op);
     printf("Enter number 02: ");
-    scanf("%d", &num2);
+    scanf("%f", &num2);
     printf("--------------------\n"); // Separator.
 
     // Does calculations according to operator.
