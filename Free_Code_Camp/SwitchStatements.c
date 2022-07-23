@@ -21,7 +21,7 @@ Note: Uncomment codes to execute and comment them when not in use.
 int main()
 {
     // Variable stores highest grade possible.
-    char grade = 'A';
+    char grade;
 
     // Asks for user input.
     printf("+-------------------+\n"); // Separator.
