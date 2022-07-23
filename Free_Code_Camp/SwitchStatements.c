@@ -35,32 +35,32 @@ int main()
     switch(grade){
     // Great - A
     case 'A':
-        printf("You did great!\n");
+        printf("You did great!      |\n");
         printf("+-------------------+\n"); // Separator.
         break;
     // Alright - B
     case 'B':
-        printf("You did alright!\n");
+        printf("You did alright!    |\n");
         printf("+-------------------+\n"); // Separator.
         break;
     // Poorly - C
     case 'C':
-        printf("You did poorly!\n");
+        printf("You did poorly!     |\n");
         printf("+-------------------+\n"); // Separator.
         break;
     // Very Badly - D
     case 'D':
-        printf("You did very badly!\n");
+        printf("You did very badly! |\n");
         printf("+-------------------+\n"); // Separator.
         break;
     // Failed - F
     case 'F':
-        printf("You Failed!");
+        printf("You Failed!         |\n");
         printf("+-------------------+\n"); // Separator.
         break;
     // Invalid Grade.
     default:
-        printf("INVALID GRADE!");
+        printf("INVALID GRADE!      |\n");
         printf("+-------------------+\n"); // Separator.
     }
 
