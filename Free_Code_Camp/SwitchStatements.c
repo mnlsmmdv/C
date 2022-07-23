@@ -23,6 +23,33 @@ int main()
     // Variable stores highest grade possible.
     char grade = 'A';
 
+    // Validates grade and returns message.
+    switch(grade){
+    // Great - A
+    case 'A':
+        printf("You did great!\n");
+        break;
+    // Alright - B
+    case 'B':
+        printf("You did alright!\n");
+        break;
+    // Poorly - C
+    case 'C':
+        printf("You did poorly!\n");
+        break;
+    // Very Badly - D
+    case 'D':
+        printf("You did very badly!\n");
+        break;
+    // Failed - F
+    case 'F':
+        printf("You Failed!");
+        break;
+    // Invalid Grade.
+    default:
+        printf("INVALID GRADE!");
+    }
+
     return 0;
 }
 
