@@ -27,8 +27,7 @@ struct Student{
 };
 
 // Main function.
-int main()
-{
+int main(){
     // Creating a Student - Student 1.
     struct Student student1;
     strcpy(student1.studentName, "Ahmed Affaan");
