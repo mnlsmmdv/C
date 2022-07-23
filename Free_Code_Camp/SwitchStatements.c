@@ -23,6 +23,14 @@ int main()
     // Variable stores highest grade possible.
     char grade = 'A';
 
+    // Asks for user input.
+    printf("+-------------------+\n"); // Separator.
+    printf("|   Grade Checker   |\n");
+    printf("+-------------------+\n"); // Separator.
+    printf("Enter your grade: ");
+    scanf(" %c", &grade);
+    printf("+-------------------+\n"); // Separator.
+
     // Validates grade and returns message.
     switch(grade){
     // Great - A
