@@ -31,7 +31,7 @@ int main()
     scanf(" %c", &grade);
     printf("+-------------------+\n"); // Separator.
 
-    // Validates grade and returns message.
+    // Validates user given grade and returns message.
     switch(grade){
     // Great - A
     case 'A':
