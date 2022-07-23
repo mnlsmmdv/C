@@ -50,27 +50,27 @@ int main(){
     student3.studentGpa = 3.6;
 
     printf("+-------------------------------+\n"); // Separator.
-    printf("|         STUDENT DETAILS       |\n");
+    printf("|        STUDENT DETAILS        |\n");
     // Printing Student 1 details.
     printf("+-------------------------------+\n"); // Separator.
-    printf("Student Name: %s\n", student1.studentName);
-    printf("Student Major: %s\n", student1.studentMajor);
-    printf("Student Age: %d\n", student1.studentAge);
-    printf("Student GPA: %f\n", student1.studentGpa);
+    printf("| Student Name: %s\n", student1.studentName);
+    printf("| Student Major: %s\n", student1.studentMajor);
+    printf("| Student Age: %d\n", student1.studentAge);
+    printf("| Student GPA: %f\n", student1.studentGpa);
     printf("+-------------------------------+\n"); // Separator.
 
     // Printing Student 2 details.
-    printf("Student Name: %s\n", student2.studentName);
-    printf("Student Major: %s\n", student2.studentMajor);
-    printf("Student Age: %d\n", student2.studentAge);
-    printf("Student GPA: %f\n", student2.studentGpa);
+    printf("| Student Name: %s\n", student2.studentName);
+    printf("| Student Major: %s\n", student2.studentMajor);
+    printf("| Student Age: %d\n", student2.studentAge);
+    printf("| Student GPA: %f\n", student2.studentGpa);
     printf("+-------------------------------+\n"); // Separator.
 
     // Printing Student 3 details.
-    printf("Student Name: %s\n", student3.studentName);
-    printf("Student Major: %s\n", student3.studentMajor);
-    printf("Student Age: %d\n", student3.studentAge);
-    printf("Student GPA: %f\n", student3.studentGpa);
+    printf("| Student Name: %s\n", student3.studentName);
+    printf("| Student Major: %s\n", student3.studentMajor);
+    printf("| Student Age: %d\n", student3.studentAge);
+    printf("| Student GPA: %f\n", student3.studentGpa);
     printf("+-------------------------------+\n"); // Separator.
 
     return 0;
