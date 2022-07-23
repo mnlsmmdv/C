@@ -27,7 +27,7 @@ int main()
     printf("+-------------------+\n"); // Separator.
     printf("|   Grade Checker   |\n");
     printf("+-------------------+\n"); // Separator.
-    printf("Enter your grade: ");
+    printf("Enter your grade:   |");
     scanf(" %c", &grade);
     printf("+-------------------+\n"); // Separator.
 
