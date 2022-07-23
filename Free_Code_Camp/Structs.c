@@ -29,7 +29,12 @@ struct Student{
 // Main function.
 int main()
 {
-
+    // Creating a Student - Student 1.
+    struct Student student1;
+    strcpy(student1.studentName, "Ahmed Affaan");
+    strcpy(student1.studentGpa, "Computer Science");
+    student1.studentAge = 20;
+    student1.studentGpa = 3.2;
 
     return 0;
 }
