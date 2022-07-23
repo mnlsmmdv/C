@@ -49,6 +49,9 @@ int main(){
     student3.studentAge = 24;
     student3.studentGpa = 3.6;
 
+
+    printf("+-------------------------------+\n"); // Separator.
+    printf("|         STUDENT DETAILS       |\n");
     // Printing Student 1 details.
     printf("+-------------------------------+\n"); // Separator.
     printf("Student Name: %s\n", student1.studentName);
