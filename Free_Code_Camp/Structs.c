@@ -19,8 +19,7 @@ Note: Uncomment codes to execute and comment them when not in use.
 
 // Stores multiple attributes to create a Student.
 // Struct is similar to objects.
-struct Student
-{
+struct Student{
     char studentName[100]; // Stores Student name.
     char studentMajor[100]; // Stores Student major.
     int studentAge; // Stores Student age.
