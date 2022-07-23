@@ -20,6 +20,8 @@ Note: Uncomment codes to execute and comment them when not in use.
 // Main function.
 int main()
 {
+    // Variable stores highest grade possible.
+    char grade = 'A';
 
     return 0;
 }
