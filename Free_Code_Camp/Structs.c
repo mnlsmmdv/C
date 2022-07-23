@@ -64,6 +64,13 @@ int main(){
     printf("Student GPA: %f\n", student2.studentGpa);
     printf("+-------------------------------+\n"); // Separator.
 
+    // Printing Student 3 details.
+    printf("Student Name: %s\n", student3.studentName);
+    printf("Student Major: %s\n", student3.studentMajor);
+    printf("Student Age: %d\n", student3.studentAge);
+    printf("Student GPA: %f\n", student3.studentGpa);
+    printf("+-------------------------------+\n"); // Separator.
+
     return 0;
 }
 
