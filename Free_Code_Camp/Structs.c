@@ -43,6 +43,13 @@ int main()
     student2.studentAge = 22;
     student2.studentGpa = 3.4;
 
+    // Creating a Student - Student 3.
+    struct Student student3;
+    strcpy(student3.studentName, "Mohamed Ali");
+    strcpy(student3.studentMajor, "Electrical Engineering");
+    student3.studentAge = 24;
+    student3.studentGpa = 3.6
+
     return 0;
 }
 
