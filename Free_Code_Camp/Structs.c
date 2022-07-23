@@ -49,6 +49,12 @@ int main(){
     student3.studentAge = 24;
     student3.studentGpa = 3.6
 
+    // Printing Student 1 details.
+    printf("Student Name: %s\n", student1.studentName);
+    printf("Student Major: %s\n", student1.studentMajor);
+    printf("Student Age: %d\n", student1.studentAge);
+    printf("Student GPA: %f\n", student1.studentGpa);
+
     return 0;
 }
 
