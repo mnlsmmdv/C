@@ -47,7 +47,7 @@ int main(){
     strcpy(student3.studentName, "Mohamed Ali");
     strcpy(student3.studentMajor, "Electrical Engineering");
     student3.studentAge = 24;
-    student3.studentGpa = 3.6
+    student3.studentGpa = 3.6;
 
     // Printing Student 1 details.
     printf("Student Name: %s\n", student1.studentName);
