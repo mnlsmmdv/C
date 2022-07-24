@@ -22,7 +22,11 @@ int main(){
     // Variable holds index needed to increment.
     int index = 1;
 
-
+    // Increments index until meets the given value.
+    while(index <= 5){
+        printf("%d\n", index); // Index value.
+        index++;
+    }
 
     return 0;
 }
