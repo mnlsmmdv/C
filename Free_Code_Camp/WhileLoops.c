@@ -46,6 +46,15 @@ int main(){
     }
     */
 
+    /*
+    // Example - Do while loop index greater than parameter value.
+    do{
+        // Does not check condition first.
+        printf("%d\n", indexA);
+        indexA++;
+    } while(indexA <= 5);
+    */
+
     return 0;
 }
 
