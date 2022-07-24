@@ -37,6 +37,15 @@ int main(){
     }
     */
 
+    /*
+    // Example - Index greater than given parameter value.
+    while(indexA = 5){
+        // Nothing shown since index is higher than parameter.
+        printf("%d\n", indexA);
+        indexA++;
+    }
+    */
+
     return 0;
 }
 
