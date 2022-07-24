@@ -28,6 +28,14 @@ int main(){
         index++;
     }
 
+    /*
+    // Example - Infinite loop.
+    while(index <= 5){
+        // Index not incremented so an infinite loop.
+        printf("%d\n", index); // Index value.
+    }
+    */
+
     return 0;
 }
 
