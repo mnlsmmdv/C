@@ -19,8 +19,9 @@ Note: Uncomment codes to execute and comment them when not in use.
 
 // Main function.
 int main(){
-    // Variable holds index needed to increment.
+    // Variables holds values needed to increment.
     int index = 1;
+    int indexA = 6;
 
     // Increments index until meets the given value.
     while(index <= 5){
